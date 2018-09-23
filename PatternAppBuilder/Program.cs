@@ -14,7 +14,7 @@ namespace PatternAppBuilder
                 .ConstroiCliente();
 
             Console.WriteLine($"{clienteBuilder.Nome}\n{clienteBuilder.SobreNome}\n{clienteBuilder.Email}");
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }
